@@ -1,0 +1,7 @@
+BKNestScrollview.xcodeproj/xcuserdata/
+BKNestScrollview.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+BKNestScrollview.xcodeproj/project.xcworkspace/xcuserdata/

@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68BA98AC4A5A332E3B2FA761 /* libPods-RMNestViewKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1953E5629E836161829A4D /* libPods-RMNestViewKit.a */; };
+		9F04602C1FFF1CE600CC0F6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F04602B1FFF1CE600CC0F6C /* AppDelegate.m */; };
+		9F04602F1FFF1CE600CC0F6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F04602E1FFF1CE600CC0F6C /* ViewController.m */; };
+		9F0460321FFF1CE600CC0F6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0460301FFF1CE600CC0F6C /* Main.storyboard */; };
+		9F0460341FFF1CE600CC0F6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0460331FFF1CE600CC0F6C /* Assets.xcassets */; };
+		9F0460371FFF1CE600CC0F6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0460351FFF1CE600CC0F6C /* LaunchScreen.storyboard */; };
+		9F04603A1FFF1CE600CC0F6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0460391FFF1CE600CC0F6C /* main.m */; };
+		9F0460441FFF1DA200CC0F6C /* RMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0460431FFF1DA200CC0F6C /* RMSegmentedControl.m */; };
+		9F0460471FFF1DF700CC0F6C /* RMNestScrollview.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0460461FFF1DF700CC0F6C /* RMNestScrollview.m */; };
+		9F04604A1FFF219100CC0F6C /* RMNestBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0460491FFF219100CC0F6C /* RMNestBaseController.m */; };
+		9F04604D1FFF46F400CC0F6C /* RMBaseScrollview.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F04604C1FFF46F400CC0F6C /* RMBaseScrollview.m */; };
+		9F0460501FFF4A0C00CC0F6C /* RMHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F04604F1FFF4A0C00CC0F6C /* RMHeadView.m */; };
+		9F046079200223D800CC0F6C /* RMNestTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F046078200223D800CC0F6C /* RMNestTableView.m */; };
+		9F194A902057CC7600411C29 /* RMNestViewKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9F194A8F2057CC7600411C29 /* RMNestViewKit.podspec */; };
+		9F284E142004992C0025094C /* CustomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F284E132004992C0025094C /* CustomController.m */; };
+		9F37436B206A340B00A37698 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F37436A206A340B00A37698 /* TestViewController.m */; };
+		9FCB56602004D3CE008AA1B2 /* RMRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB565B2004D3CE008AA1B2 /* RMRefreshHeader.m */; };
+		9FCB56612004D3CE008AA1B2 /* UIScrollView+RMRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB565D2004D3CE008AA1B2 /* UIScrollView+RMRefresh.m */; };
+		9FCB56622004D3CE008AA1B2 /* UIView+RMRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB565F2004D3CE008AA1B2 /* UIView+RMRefresh.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A1953E5629E836161829A4D /* libPods-RMNestViewKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RMNestViewKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0460271FFF1CE600CC0F6C /* RMNestViewKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMNestViewKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F04602A1FFF1CE600CC0F6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F04602B1FFF1CE600CC0F6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F04602D1FFF1CE600CC0F6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F04602E1FFF1CE600CC0F6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F0460311FFF1CE600CC0F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F0460331FFF1CE600CC0F6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F0460361FFF1CE600CC0F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F0460381FFF1CE600CC0F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0460391FFF1CE600CC0F6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F0460421FFF1DA200CC0F6C /* RMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMSegmentedControl.h; sourceTree = "<group>"; };
+		9F0460431FFF1DA200CC0F6C /* RMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMSegmentedControl.m; sourceTree = "<group>"; };
+		9F0460451FFF1DF700CC0F6C /* RMNestScrollview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMNestScrollview.h; sourceTree = "<group>"; };
+		9F0460461FFF1DF700CC0F6C /* RMNestScrollview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMNestScrollview.m; sourceTree = "<group>"; };
+		9F0460481FFF219100CC0F6C /* RMNestBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMNestBaseController.h; sourceTree = "<group>"; };
+		9F0460491FFF219100CC0F6C /* RMNestBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMNestBaseController.m; sourceTree = "<group>"; };
+		9F04604B1FFF46F400CC0F6C /* RMBaseScrollview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMBaseScrollview.h; sourceTree = "<group>"; };
+		9F04604C1FFF46F400CC0F6C /* RMBaseScrollview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMBaseScrollview.m; sourceTree = "<group>"; };
+		9F04604E1FFF4A0C00CC0F6C /* RMHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMHeadView.h; sourceTree = "<group>"; };
+		9F04604F1FFF4A0C00CC0F6C /* RMHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMHeadView.m; sourceTree = "<group>"; };
+		9F046077200223D800CC0F6C /* RMNestTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMNestTableView.h; sourceTree = "<group>"; };
+		9F046078200223D800CC0F6C /* RMNestTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMNestTableView.m; sourceTree = "<group>"; };
+		9F194A8F2057CC7600411C29 /* RMNestViewKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RMNestViewKit.podspec; sourceTree = SOURCE_ROOT; };
+		9F284E122004992C0025094C /* CustomController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomController.h; sourceTree = "<group>"; };
+		9F284E132004992C0025094C /* CustomController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomController.m; sourceTree = "<group>"; };
+		9F374369206A340B00A37698 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		9F37436A206A340B00A37698 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		9FCB565A2004D3CE008AA1B2 /* RMRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMRefreshHeader.h; sourceTree = "<group>"; };
+		9FCB565B2004D3CE008AA1B2 /* RMRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMRefreshHeader.m; sourceTree = "<group>"; };
+		9FCB565C2004D3CE008AA1B2 /* UIScrollView+RMRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+RMRefresh.h"; sourceTree = "<group>"; };
+		9FCB565D2004D3CE008AA1B2 /* UIScrollView+RMRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+RMRefresh.m"; sourceTree = "<group>"; };
+		9FCB565E2004D3CE008AA1B2 /* UIView+RMRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RMRefresh.h"; sourceTree = "<group>"; };
+		9FCB565F2004D3CE008AA1B2 /* UIView+RMRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RMRefresh.m"; sourceTree = "<group>"; };
+		B8095F2BA398B437918326B2 /* Pods-RMNestViewKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMNestViewKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RMNestViewKit/Pods-RMNestViewKit.debug.xcconfig"; sourceTree = "<group>"; };
+		DFDEF38F52D3CBE69F7F931D /* Pods-RMNestViewKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMNestViewKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-RMNestViewKit/Pods-RMNestViewKit.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F0460241FFF1CE600CC0F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BA98AC4A5A332E3B2FA761 /* libPods-RMNestViewKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		334AA26A8D2961CD5DA08799 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8095F2BA398B437918326B2 /* Pods-RMNestViewKit.debug.xcconfig */,
+				DFDEF38F52D3CBE69F7F931D /* Pods-RMNestViewKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4590E8B43D78045D0E752004 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A1953E5629E836161829A4D /* libPods-RMNestViewKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F04601E1FFF1CE600CC0F6C = {
+			isa = PBXGroup;
+			children = (
+				9F0460291FFF1CE600CC0F6C /* RMNestViewKit */,
+				9F0460281FFF1CE600CC0F6C /* Products */,
+				334AA26A8D2961CD5DA08799 /* Pods */,
+				4590E8B43D78045D0E752004 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F0460281FFF1CE600CC0F6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F0460271FFF1CE600CC0F6C /* RMNestViewKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F0460291FFF1CE600CC0F6C /* RMNestViewKit */ = {
+			isa = PBXGroup;
+			children = (
+				9F0460401FFF1D8200CC0F6C /* RMNestViewKit */,
+				9F04602A1FFF1CE600CC0F6C /* AppDelegate.h */,
+				9F04602B1FFF1CE600CC0F6C /* AppDelegate.m */,
+				9F04602D1FFF1CE600CC0F6C /* ViewController.h */,
+				9F04602E1FFF1CE600CC0F6C /* ViewController.m */,
+				9F0460301FFF1CE600CC0F6C /* Main.storyboard */,
+				9F0460331FFF1CE600CC0F6C /* Assets.xcassets */,
+				9F0460351FFF1CE600CC0F6C /* LaunchScreen.storyboard */,
+				9F0460381FFF1CE600CC0F6C /* Info.plist */,
+				9F0460391FFF1CE600CC0F6C /* main.m */,
+				9F284E122004992C0025094C /* CustomController.h */,
+				9F284E132004992C0025094C /* CustomController.m */,
+				9F194A8F2057CC7600411C29 /* RMNestViewKit.podspec */,
+				9F374369206A340B00A37698 /* TestViewController.h */,
+				9F37436A206A340B00A37698 /* TestViewController.m */,
+			);
+			path = RMNestViewKit;
+			sourceTree = "<group>";
+		};
+		9F0460401FFF1D8200CC0F6C /* RMNestViewKit */ = {
+			isa = PBXGroup;
+			children = (
+				9FCB56592004D3CE008AA1B2 /* RMRefresh */,
+				9F0460411FFF1DA200CC0F6C /* RMSegmentedControl */,
+				9F0460451FFF1DF700CC0F6C /* RMNestScrollview.h */,
+				9F0460461FFF1DF700CC0F6C /* RMNestScrollview.m */,
+				9F0460481FFF219100CC0F6C /* RMNestBaseController.h */,
+				9F0460491FFF219100CC0F6C /* RMNestBaseController.m */,
+				9F04604B1FFF46F400CC0F6C /* RMBaseScrollview.h */,
+				9F04604C1FFF46F400CC0F6C /* RMBaseScrollview.m */,
+				9F04604E1FFF4A0C00CC0F6C /* RMHeadView.h */,
+				9F04604F1FFF4A0C00CC0F6C /* RMHeadView.m */,
+				9F046077200223D800CC0F6C /* RMNestTableView.h */,
+				9F046078200223D800CC0F6C /* RMNestTableView.m */,
+			);
+			path = RMNestViewKit;
+			sourceTree = "<group>";
+		};
+		9F0460411FFF1DA200CC0F6C /* RMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				9F0460421FFF1DA200CC0F6C /* RMSegmentedControl.h */,
+				9F0460431FFF1DA200CC0F6C /* RMSegmentedControl.m */,
+			);
+			path = RMSegmentedControl;
+			sourceTree = "<group>";
+		};
+		9FCB56592004D3CE008AA1B2 /* RMRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				9FCB565A2004D3CE008AA1B2 /* RMRefreshHeader.h */,
+				9FCB565B2004D3CE008AA1B2 /* RMRefreshHeader.m */,
+				9FCB565C2004D3CE008AA1B2 /* UIScrollView+RMRefresh.h */,
+				9FCB565D2004D3CE008AA1B2 /* UIScrollView+RMRefresh.m */,
+				9FCB565E2004D3CE008AA1B2 /* UIView+RMRefresh.h */,
+				9FCB565F2004D3CE008AA1B2 /* UIView+RMRefresh.m */,
+			);
+			path = RMRefresh;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F0460261FFF1CE600CC0F6C /* RMNestViewKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F04603D1FFF1CE600CC0F6C /* Build configuration list for PBXNativeTarget "RMNestViewKit" */;
+			buildPhases = (
+				B74810EDC8984A3DDCA2237E /* [CP] Check Pods Manifest.lock */,
+				9F0460231FFF1CE600CC0F6C /* Sources */,
+				9F0460241FFF1CE600CC0F6C /* Frameworks */,
+				9F0460251FFF1CE600CC0F6C /* Resources */,
+				601E446BAC636A60E8A0E86F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMNestViewKit;
+			productName = RMNestViewKit;
+			productReference = 9F0460271FFF1CE600CC0F6C /* RMNestViewKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F04601F1FFF1CE600CC0F6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Tinghui Yuan";
+				TargetAttributes = {
+					9F0460261FFF1CE600CC0F6C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9F0460221FFF1CE600CC0F6C /* Build configuration list for PBXProject "RMNestViewKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F04601E1FFF1CE600CC0F6C;
+			productRefGroup = 9F0460281FFF1CE600CC0F6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F0460261FFF1CE600CC0F6C /* RMNestViewKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F0460251FFF1CE600CC0F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0460371FFF1CE600CC0F6C /* LaunchScreen.storyboard in Resources */,
+				9F194A902057CC7600411C29 /* RMNestViewKit.podspec in Resources */,
+				9F0460341FFF1CE600CC0F6C /* Assets.xcassets in Resources */,
+				9F0460321FFF1CE600CC0F6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		601E446BAC636A60E8A0E86F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RMNestViewKit/Pods-RMNestViewKit-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RMNestViewKit/Pods-RMNestViewKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B74810EDC8984A3DDCA2237E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RMNestViewKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F0460231FFF1CE600CC0F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F046079200223D800CC0F6C /* RMNestTableView.m in Sources */,
+				9F0460441FFF1DA200CC0F6C /* RMSegmentedControl.m in Sources */,
+				9F37436B206A340B00A37698 /* TestViewController.m in Sources */,
+				9F284E142004992C0025094C /* CustomController.m in Sources */,
+				9F0460501FFF4A0C00CC0F6C /* RMHeadView.m in Sources */,
+				9F04604D1FFF46F400CC0F6C /* RMBaseScrollview.m in Sources */,
+				9FCB56612004D3CE008AA1B2 /* UIScrollView+RMRefresh.m in Sources */,
+				9F04604A1FFF219100CC0F6C /* RMNestBaseController.m in Sources */,
+				9F0460471FFF1DF700CC0F6C /* RMNestScrollview.m in Sources */,
+				9F04602F1FFF1CE600CC0F6C /* ViewController.m in Sources */,
+				9F04603A1FFF1CE600CC0F6C /* main.m in Sources */,
+				9FCB56602004D3CE008AA1B2 /* RMRefreshHeader.m in Sources */,
+				9F04602C1FFF1CE600CC0F6C /* AppDelegate.m in Sources */,
+				9FCB56622004D3CE008AA1B2 /* UIView+RMRefresh.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F0460301FFF1CE600CC0F6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F0460311FFF1CE600CC0F6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F0460351FFF1CE600CC0F6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F0460361FFF1CE600CC0F6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F04603B1FFF1CE600CC0F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F04603C1FFF1CE600CC0F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F04603E1FFF1CE600CC0F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8095F2BA398B437918326B2 /* Pods-RMNestViewKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X34M6R8ZA;
+				INFOPLIST_FILE = RMNestViewKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sq.RMNestViewKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F04603F1FFF1CE600CC0F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFDEF38F52D3CBE69F7F931D /* Pods-RMNestViewKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X34M6R8ZA;
+				INFOPLIST_FILE = RMNestViewKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sq.;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F0460221FFF1CE600CC0F6C /* Build configuration list for PBXProject "RMNestViewKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F04603B1FFF1CE600CC0F6C /* Debug */,
+				9F04603C1FFF1CE600CC0F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F04603D1FFF1CE600CC0F6C /* Build configuration list for PBXNativeTarget "RMNestViewKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F04603E1FFF1CE600CC0F6C /* Debug */,
+				9F04603F1FFF1CE600CC0F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F04601F1FFF1CE600CC0F6C /* Project object */;
+}
